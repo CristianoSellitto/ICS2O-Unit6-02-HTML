@@ -13,7 +13,7 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * Updates the click counter when the site loads.
+ * Updates the click counter.
  */
 function updateCount() {
   if (localStorage.clicks) {
